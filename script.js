@@ -1,4 +1,4 @@
-<script>
+
       var emptyMessage = document.getElementById("empty-list");
 
       function addNote() {
@@ -30,4 +30,3 @@
         emptyMessage.style.display =
           list.children.length > 0 ? "none" : "block";
       }
-    </script>
